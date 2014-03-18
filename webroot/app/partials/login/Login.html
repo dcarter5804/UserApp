@@ -1,0 +1,24 @@
+<div id="login-screen" class="container">
+	<div class="tac" style="margin:0px auto;width:300px;border:1px solid #ccc;">
+		<form data-ng-submit="submit()">
+		
+			<div class="bottomSpacer20"><h3>User App Login:</h3></div>
+			
+			<div class="tal plr">
+				<div class="bottomSpacer">
+					<span class="width75 inline"><b>Username:</b></span>
+					<input data-ng-model="App.user.username" type="text" name="username" placeholder="Username" class="mlr"/>
+				</div>
+				<div class="bottomSpacer">
+					<span class="width75 inline"><b>Password:</b></span>
+					<input data-ng-model="App.user.password" type="password" name="password" placeholder="Password" class="mlr"/>
+				</div>
+				<div class="bottomSpacer">
+					<span class="width75 inline"></span>
+					<button class="mlr" type="submit">Login</button>
+				</div>
+			</div>
+			
+		</form>
+	</div>
+</div>

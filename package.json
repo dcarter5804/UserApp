@@ -1,0 +1,13 @@
+{
+  "name": "UserApp",
+  "description": "A test application to manage user information",
+  "author": "Derek Carter <dcarter5804@gmail.com>",
+  "dependencies": {
+    "express": "x",
+    "mongojs": "x",
+    "passport":"x",
+    "passport-local":"x",
+    "passport-http-bearer":"x",
+    "jwt-simple":"x"
+  }
+}

@@ -1,0 +1,40 @@
+<div class="container">
+
+	<!--  First Name -->
+	<div class="bottomSpacer">
+		<span class="inline mr width100"><b>First Name:</b></span>
+		<div class="inline">
+			<input name="first_name" data-ng-model="User.first_name" disabled/>
+		</div>
+	</div>
+	
+	<!--  Last Name -->
+	<div class="bottomSpacer">
+		<span class="inline mr width100"><b>Last Name:</b></span>
+		<div class="inline">
+			<input name="first_name" data-ng-model="User.last_name" disabled/>
+		</div>
+	</div>
+	
+	<!-- Title -->
+	<div class="bottomSpacer">
+		<span class="inline mr width100"><b>Title:</b></span>
+		<div class="inline">
+			<input name="first_name" data-ng-model="User.title" />
+		</div>
+	</div>
+	
+	<!--  Description -->
+	<div class="bottomSpacer20">
+		<span class="inline mr width100"><b>Description:</b></span>
+		<div class="inline">
+			<textarea name="first_name" style="width:300px;" data-ng-model="User.description"></textarea>
+		</div>
+	</div>
+	
+	<button type="button" class="btn btn-primary mr20" data-ng-click="updateUser()">Update User</button>
+	<button type="button" class="btn btn-danger mr20" data-ng-click="deleteUser()">Delete User</button>
+	<a href="#/home" class="btn btn-default">Cancel</button>
+	
+	
+</div>
