@@ -12,6 +12,5 @@ module.exports = function (ENV) {
 	
 	ENV_PROPS.connectionString = connectionString;
 	
-	console.log("ENV_PROPS: " + JSON.stringify(ENV_PROPS));
 	return ENV_PROPS;
 }
