@@ -1,4 +1,4 @@
-module.exports = function (server, passport, users) {
+module.exports = function (server, passport, users, mongodb) {
 	/* User REST API */
 	/* Handlers */
 	function findAllUsers(req, res){
